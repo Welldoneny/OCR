@@ -1,0 +1,648 @@
+[2024-07-18T07:44:57.805573 10786] === CCACHE 4.5.1 STARTED =========================================
+[2024-07-18T07:44:57.805573 10786] Config: (default) absolute_paths_in_stderr = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) base_dir = 
+[2024-07-18T07:44:57.805573 10786] Config: (environment) cache_dir = /home/welldoneny/.cache/Nuitka/ccache
+[2024-07-18T07:44:57.805573 10786] Config: (default) compiler = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) compiler_check = mtime
+[2024-07-18T07:44:57.805573 10786] Config: (default) compiler_type = auto
+[2024-07-18T07:44:57.805573 10786] Config: (default) compression = true
+[2024-07-18T07:44:57.805573 10786] Config: (default) compression_level = 0
+[2024-07-18T07:44:57.805573 10786] Config: (default) cpp_extension = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) debug = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) debug_dir = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) depend_mode = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) direct_mode = true
+[2024-07-18T07:44:57.805573 10786] Config: (default) disable = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) extra_files_to_hash = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) file_clone = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) hard_link = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) hash_dir = true
+[2024-07-18T07:44:57.805573 10786] Config: (default) ignore_headers_in_manifest = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) ignore_options = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) inode_cache = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) keep_comments_cpp = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) limit_multiple = 0.8
+[2024-07-18T07:44:57.805573 10786] Config: (environment) log_file = /home/welldoneny/Рабочий стол/work/Python /OCR/main.build/ccache-10766.txt
+[2024-07-18T07:44:57.805573 10786] Config: (default) max_files = 0
+[2024-07-18T07:44:57.805573 10786] Config: (default) max_size = 5.0G
+[2024-07-18T07:44:57.805573 10786] Config: (default) namespace = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) path = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) pch_external_checksum = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) prefix_command = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) prefix_command_cpp = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) read_only = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) read_only_direct = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) recache = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) reshare = false
+[2024-07-18T07:44:57.805573 10786] Config: (default) run_second_cpp = true
+[2024-07-18T07:44:57.805573 10786] Config: (default) secondary_storage = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) sloppiness = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) stats = true
+[2024-07-18T07:44:57.805573 10786] Config: (default) stats_log = 
+[2024-07-18T07:44:57.805573 10786] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2024-07-18T07:44:57.805573 10786] Config: (default) umask = 
+[2024-07-18T07:44:57.805666 10786] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src __constants.c
+[2024-07-18T07:44:57.805688 10786] Hostname: welldoneny-VivoBook
+[2024-07-18T07:44:57.805695 10786] Working directory: /home/welldoneny/Рабочий стол/work/Python /OCR/main.build
+[2024-07-18T07:44:57.805700 10786] Compiler type: gcc
+[2024-07-18T07:44:57.805793 10786] Source file: __constants.c
+[2024-07-18T07:44:57.805801 10786] Object file: __constants.o
+[2024-07-18T07:44:57.805821 10786] Trying direct lookup
+[2024-07-18T07:44:57.806266 10786] Retrieved b706ncflqotmtr7rg4smegqusqhemde52 from primary storage (/home/welldoneny/.cache/Nuitka/ccache/b/7/06ncflqotmtr7rg4smegqusqhemde52M)
+[2024-07-18T07:44:57.806298 10786] Looking for result key in /home/welldoneny/.cache/Nuitka/ccache/b/7/06ncflqotmtr7rg4smegqusqhemde52M
+[2024-07-18T07:44:57.806408 10789] === CCACHE 4.5.1 STARTED =========================================
+[2024-07-18T07:44:57.806408 10789] Config: (default) absolute_paths_in_stderr = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) base_dir = 
+[2024-07-18T07:44:57.806408 10789] Config: (environment) cache_dir = /home/welldoneny/.cache/Nuitka/ccache
+[2024-07-18T07:44:57.806408 10789] Config: (default) compiler = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) compiler_check = mtime
+[2024-07-18T07:44:57.806408 10789] Config: (default) compiler_type = auto
+[2024-07-18T07:44:57.806408 10789] Config: (default) compression = true
+[2024-07-18T07:44:57.806408 10789] Config: (default) compression_level = 0
+[2024-07-18T07:44:57.806408 10789] Config: (default) cpp_extension = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) debug = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) debug_dir = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) depend_mode = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) direct_mode = true
+[2024-07-18T07:44:57.806408 10789] Config: (default) disable = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) extra_files_to_hash = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) file_clone = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) hard_link = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) hash_dir = true
+[2024-07-18T07:44:57.806408 10789] Config: (default) ignore_headers_in_manifest = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) ignore_options = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) inode_cache = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) keep_comments_cpp = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) limit_multiple = 0.8
+[2024-07-18T07:44:57.806408 10789] Config: (environment) log_file = /home/welldoneny/Рабочий стол/work/Python /OCR/main.build/ccache-10766.txt
+[2024-07-18T07:44:57.806408 10789] Config: (default) max_files = 0
+[2024-07-18T07:44:57.806408 10789] Config: (default) max_size = 5.0G
+[2024-07-18T07:44:57.806408 10789] Config: (default) namespace = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) path = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) pch_external_checksum = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) prefix_command = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) prefix_command_cpp = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) read_only = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) read_only_direct = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) recache = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) reshare = false
+[2024-07-18T07:44:57.806408 10789] Config: (default) run_second_cpp = true
+[2024-07-18T07:44:57.806408 10789] Config: (default) secondary_storage = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) sloppiness = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) stats = true
+[2024-07-18T07:44:57.806408 10789] Config: (default) stats_log = 
+[2024-07-18T07:44:57.806408 10789] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2024-07-18T07:44:57.806408 10789] Config: (default) umask = 
+[2024-07-18T07:44:57.806477 10789] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src __helpers.c
+[2024-07-18T07:44:57.806497 10789] Hostname: welldoneny-VivoBook
+[2024-07-18T07:44:57.806503 10789] Working directory: /home/welldoneny/Рабочий стол/work/Python /OCR/main.build
+[2024-07-18T07:44:57.806509 10789] Compiler type: gcc
+[2024-07-18T07:44:57.806584 10789] Source file: __helpers.c
+[2024-07-18T07:44:57.806592 10789] Object file: __helpers.o
+[2024-07-18T07:44:57.806608 10789] Trying direct lookup
+[2024-07-18T07:44:57.806862 10789] Retrieved d59cn61oqqvot35sa26mt3rmncvdv10f0 from primary storage (/home/welldoneny/.cache/Nuitka/ccache/d/5/9cn61oqqvot35sa26mt3rmncvdv10f0M)
+[2024-07-18T07:44:57.806881 10789] Looking for result key in /home/welldoneny/.cache/Nuitka/ccache/d/5/9cn61oqqvot35sa26mt3rmncvdv10f0M
+[2024-07-18T07:44:57.811396 10792] === CCACHE 4.5.1 STARTED =========================================
+[2024-07-18T07:44:57.811396 10792] Config: (default) absolute_paths_in_stderr = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) base_dir = 
+[2024-07-18T07:44:57.811396 10792] Config: (environment) cache_dir = /home/welldoneny/.cache/Nuitka/ccache
+[2024-07-18T07:44:57.811396 10792] Config: (default) compiler = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) compiler_check = mtime
+[2024-07-18T07:44:57.811396 10792] Config: (default) compiler_type = auto
+[2024-07-18T07:44:57.811396 10792] Config: (default) compression = true
+[2024-07-18T07:44:57.811396 10792] Config: (default) compression_level = 0
+[2024-07-18T07:44:57.811396 10792] Config: (default) cpp_extension = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) debug = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) debug_dir = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) depend_mode = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) direct_mode = true
+[2024-07-18T07:44:57.811396 10792] Config: (default) disable = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) extra_files_to_hash = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) file_clone = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) hard_link = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) hash_dir = true
+[2024-07-18T07:44:57.811396 10792] Config: (default) ignore_headers_in_manifest = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) ignore_options = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) inode_cache = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) keep_comments_cpp = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) limit_multiple = 0.8
+[2024-07-18T07:44:57.811396 10792] Config: (environment) log_file = /home/welldoneny/Рабочий стол/work/Python /OCR/main.build/ccache-10766.txt
+[2024-07-18T07:44:57.811396 10792] Config: (default) max_files = 0
+[2024-07-18T07:44:57.811396 10792] Config: (default) max_size = 5.0G
+[2024-07-18T07:44:57.811396 10792] Config: (default) namespace = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) path = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) pch_external_checksum = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) prefix_command = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) prefix_command_cpp = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) read_only = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) read_only_direct = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) recache = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) reshare = false
+[2024-07-18T07:44:57.811396 10792] Config: (default) run_second_cpp = true
+[2024-07-18T07:44:57.811396 10792] Config: (default) secondary_storage = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) sloppiness = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) stats = true
+[2024-07-18T07:44:57.811396 10792] Config: (default) stats_log = 
+[2024-07-18T07:44:57.811396 10792] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2024-07-18T07:44:57.811396 10792] Config: (default) umask = 
+[2024-07-18T07:44:57.811465 10792] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src __loader.c
+[2024-07-18T07:44:57.811484 10792] Hostname: welldoneny-VivoBook
+[2024-07-18T07:44:57.811490 10792] Working directory: /home/welldoneny/Рабочий стол/work/Python /OCR/main.build
+[2024-07-18T07:44:57.811496 10792] Compiler type: gcc
+[2024-07-18T07:44:57.811574 10792] Source file: __loader.c
+[2024-07-18T07:44:57.811581 10792] Object file: __loader.o
+[2024-07-18T07:44:57.811594 10792] Trying direct lookup
+[2024-07-18T07:44:57.812058 10792] Retrieved 593f1603kuqf76slih471vp6sv33u59ms from primary storage (/home/welldoneny/.cache/Nuitka/ccache/5/9/3f1603kuqf76slih471vp6sv33u59msM)
+[2024-07-18T07:44:57.812079 10792] Looking for result key in /home/welldoneny/.cache/Nuitka/ccache/5/9/3f1603kuqf76slih471vp6sv33u59msM
+[2024-07-18T07:44:57.821034 10795] === CCACHE 4.5.1 STARTED =========================================
+[2024-07-18T07:44:57.821034 10795] Config: (default) absolute_paths_in_stderr = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) base_dir = 
+[2024-07-18T07:44:57.821034 10795] Config: (environment) cache_dir = /home/welldoneny/.cache/Nuitka/ccache
+[2024-07-18T07:44:57.821034 10795] Config: (default) compiler = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) compiler_check = mtime
+[2024-07-18T07:44:57.821034 10795] Config: (default) compiler_type = auto
+[2024-07-18T07:44:57.821034 10795] Config: (default) compression = true
+[2024-07-18T07:44:57.821034 10795] Config: (default) compression_level = 0
+[2024-07-18T07:44:57.821034 10795] Config: (default) cpp_extension = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) debug = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) debug_dir = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) depend_mode = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) direct_mode = true
+[2024-07-18T07:44:57.821034 10795] Config: (default) disable = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) extra_files_to_hash = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) file_clone = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) hard_link = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) hash_dir = true
+[2024-07-18T07:44:57.821034 10795] Config: (default) ignore_headers_in_manifest = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) ignore_options = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) inode_cache = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) keep_comments_cpp = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) limit_multiple = 0.8
+[2024-07-18T07:44:57.821034 10795] Config: (environment) log_file = /home/welldoneny/Рабочий стол/work/Python /OCR/main.build/ccache-10766.txt
+[2024-07-18T07:44:57.821034 10795] Config: (default) max_files = 0
+[2024-07-18T07:44:57.821034 10795] Config: (default) max_size = 5.0G
+[2024-07-18T07:44:57.821034 10795] Config: (default) namespace = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) path = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) pch_external_checksum = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) prefix_command = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) prefix_command_cpp = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) read_only = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) read_only_direct = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) recache = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) reshare = false
+[2024-07-18T07:44:57.821034 10795] Config: (default) run_second_cpp = true
+[2024-07-18T07:44:57.821034 10795] Config: (default) secondary_storage = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) sloppiness = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) stats = true
+[2024-07-18T07:44:57.821034 10795] Config: (default) stats_log = 
+[2024-07-18T07:44:57.821034 10795] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2024-07-18T07:44:57.821034 10795] Config: (default) umask = 
+[2024-07-18T07:44:57.821103 10795] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__main__.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src module.__main__.c
+[2024-07-18T07:44:57.821143 10795] Hostname: welldoneny-VivoBook
+[2024-07-18T07:44:57.821153 10795] Working directory: /home/welldoneny/Рабочий стол/work/Python /OCR/main.build
+[2024-07-18T07:44:57.821158 10795] Compiler type: gcc
+[2024-07-18T07:44:57.821237 10795] Source file: module.__main__.c
+[2024-07-18T07:44:57.821245 10795] Object file: module.__main__.o
+[2024-07-18T07:44:57.821260 10795] Trying direct lookup
+[2024-07-18T07:44:57.822053 10795] No 4d05vpf5dlak89trrm011n9nsvcvva1g6 in primary storage
+[2024-07-18T07:44:57.822179 10795] Running preprocessor
+[2024-07-18T07:44:57.822193 10795] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src -E module.__main__.c
+[2024-07-18T07:44:57.828020 10800] === CCACHE 4.5.1 STARTED =========================================
+[2024-07-18T07:44:57.828020 10800] Config: (default) absolute_paths_in_stderr = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) base_dir = 
+[2024-07-18T07:44:57.828020 10800] Config: (environment) cache_dir = /home/welldoneny/.cache/Nuitka/ccache
+[2024-07-18T07:44:57.828020 10800] Config: (default) compiler = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) compiler_check = mtime
+[2024-07-18T07:44:57.828020 10800] Config: (default) compiler_type = auto
+[2024-07-18T07:44:57.828020 10800] Config: (default) compression = true
+[2024-07-18T07:44:57.828020 10800] Config: (default) compression_level = 0
+[2024-07-18T07:44:57.828020 10800] Config: (default) cpp_extension = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) debug = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) debug_dir = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) depend_mode = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) direct_mode = true
+[2024-07-18T07:44:57.828020 10800] Config: (default) disable = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) extra_files_to_hash = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) file_clone = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) hard_link = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) hash_dir = true
+[2024-07-18T07:44:57.828020 10800] Config: (default) ignore_headers_in_manifest = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) ignore_options = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) inode_cache = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) keep_comments_cpp = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) limit_multiple = 0.8
+[2024-07-18T07:44:57.828020 10800] Config: (environment) log_file = /home/welldoneny/Рабочий стол/work/Python /OCR/main.build/ccache-10766.txt
+[2024-07-18T07:44:57.828020 10800] Config: (default) max_files = 0
+[2024-07-18T07:44:57.828020 10800] Config: (default) max_size = 5.0G
+[2024-07-18T07:44:57.828020 10800] Config: (default) namespace = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) path = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) pch_external_checksum = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) prefix_command = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) prefix_command_cpp = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) read_only = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) read_only_direct = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) recache = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) reshare = false
+[2024-07-18T07:44:57.828020 10800] Config: (default) run_second_cpp = true
+[2024-07-18T07:44:57.828020 10800] Config: (default) secondary_storage = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) sloppiness = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) stats = true
+[2024-07-18T07:44:57.828020 10800] Config: (default) stats_log = 
+[2024-07-18T07:44:57.828020 10800] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2024-07-18T07:44:57.828020 10800] Config: (default) umask = 
+[2024-07-18T07:44:57.828098 10800] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MainProgram.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/MainProgram.c
+[2024-07-18T07:44:57.828121 10800] Hostname: welldoneny-VivoBook
+[2024-07-18T07:44:57.828127 10800] Working directory: /home/welldoneny/Рабочий стол/work/Python /OCR/main.build
+[2024-07-18T07:44:57.828133 10800] Compiler type: gcc
+[2024-07-18T07:44:57.828218 10800] Source file: static_src/MainProgram.c
+[2024-07-18T07:44:57.828226 10800] Object file: static_src/MainProgram.o
+[2024-07-18T07:44:57.828242 10800] Trying direct lookup
+[2024-07-18T07:44:57.828977 10800] Retrieved 81fcrp1ohusg9a8gpsk1js8omao1j0n86 from primary storage (/home/welldoneny/.cache/Nuitka/ccache/8/1/fcrp1ohusg9a8gpsk1js8omao1j0n86M)
+[2024-07-18T07:44:57.829000 10800] Looking for result key in /home/welldoneny/.cache/Nuitka/ccache/8/1/fcrp1ohusg9a8gpsk1js8omao1j0n86M
+[2024-07-18T07:44:57.833151 10792] Got result key from manifest
+[2024-07-18T07:44:57.833595 10792] Retrieved 7456p34p2gah3dhjhkqnhk4sgaf0mi1hk from primary storage (/home/welldoneny/.cache/Nuitka/ccache/7/4/56p34p2gah3dhjhkqnhk4sgaf0mi1hkR)
+[2024-07-18T07:44:57.833624 10792] Reading result /home/welldoneny/.cache/Nuitka/ccache/7/4/56p34p2gah3dhjhkqnhk4sgaf0mi1hkR
+[2024-07-18T07:44:57.833736 10786] Got result key from manifest
+[2024-07-18T07:44:57.833754 10789] Got result key from manifest
+[2024-07-18T07:44:57.833975 10786] Retrieved db16ttsv0q71q36cr0hm7k8nbe1b879c6 from primary storage (/home/welldoneny/.cache/Nuitka/ccache/d/b/16ttsv0q71q36cr0hm7k8nbe1b879c6R)
+[2024-07-18T07:44:57.833999 10786] Reading result /home/welldoneny/.cache/Nuitka/ccache/d/b/16ttsv0q71q36cr0hm7k8nbe1b879c6R
+[2024-07-18T07:44:57.834015 10792] Reading embedded entry #0 .o (9264 bytes)
+[2024-07-18T07:44:57.834039 10792] Writing to __loader.o
+[2024-07-18T07:44:57.834173 10792] Succeeded getting cached result
+[2024-07-18T07:44:57.834192 10792] Result: direct_cache_hit
+[2024-07-18T07:44:57.834200 10792] Result: primary_storage_hit
+[2024-07-18T07:44:57.834297 10789] Retrieved e3e40m8vbnhnrk2ab7eelgnnosnj5b8iq from primary storage (/home/welldoneny/.cache/Nuitka/ccache/e/3/e40m8vbnhnrk2ab7eelgnnosnj5b8iqR)
+[2024-07-18T07:44:57.834306 10803] === CCACHE 4.5.1 STARTED =========================================
+[2024-07-18T07:44:57.834323 10789] Reading result /home/welldoneny/.cache/Nuitka/ccache/e/3/e40m8vbnhnrk2ab7eelgnnosnj5b8iqR
+[2024-07-18T07:44:57.834324 10786] Reading embedded entry #0 .o (14368 bytes)
+[2024-07-18T07:44:57.834339 10786] Writing to __constants.o
+[2024-07-18T07:44:57.834306 10803] Config: (default) absolute_paths_in_stderr = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) base_dir = 
+[2024-07-18T07:44:57.834306 10803] Config: (environment) cache_dir = /home/welldoneny/.cache/Nuitka/ccache
+[2024-07-18T07:44:57.834306 10803] Config: (default) compiler = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) compiler_check = mtime
+[2024-07-18T07:44:57.834306 10803] Config: (default) compiler_type = auto
+[2024-07-18T07:44:57.834306 10803] Config: (default) compression = true
+[2024-07-18T07:44:57.834306 10803] Config: (default) compression_level = 0
+[2024-07-18T07:44:57.834306 10803] Config: (default) cpp_extension = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) debug = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) debug_dir = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) depend_mode = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) direct_mode = true
+[2024-07-18T07:44:57.834306 10803] Config: (default) disable = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) extra_files_to_hash = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) file_clone = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) hard_link = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) hash_dir = true
+[2024-07-18T07:44:57.834306 10803] Config: (default) ignore_headers_in_manifest = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) ignore_options = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) inode_cache = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) keep_comments_cpp = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) limit_multiple = 0.8
+[2024-07-18T07:44:57.834306 10803] Config: (environment) log_file = /home/welldoneny/Рабочий стол/work/Python /OCR/main.build/ccache-10766.txt
+[2024-07-18T07:44:57.834306 10803] Config: (default) max_files = 0
+[2024-07-18T07:44:57.834306 10803] Config: (default) max_size = 5.0G
+[2024-07-18T07:44:57.834306 10803] Config: (default) namespace = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) path = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) pch_external_checksum = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) prefix_command = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) prefix_command_cpp = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) read_only = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) read_only_direct = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) recache = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) reshare = false
+[2024-07-18T07:44:57.834306 10803] Config: (default) run_second_cpp = true
+[2024-07-18T07:44:57.834306 10803] Config: (default) secondary_storage = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) sloppiness = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) stats = true
+[2024-07-18T07:44:57.834306 10803] Config: (default) stats_log = 
+[2024-07-18T07:44:57.834306 10803] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2024-07-18T07:44:57.834306 10803] Config: (default) umask = 
+[2024-07-18T07:44:57.834384 10803] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCellType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/CompiledCellType.c
+[2024-07-18T07:44:57.834395 10792] lockfile_acquire: symlink /home/welldoneny/.cache/Nuitka/ccache/2/8/stats.lock: No such file or directory
+[2024-07-18T07:44:57.834410 10803] Hostname: welldoneny-VivoBook
+[2024-07-18T07:44:57.834424 10803] Working directory: /home/welldoneny/Рабочий стол/work/Python /OCR/main.build
+[2024-07-18T07:44:57.834420 10786] Succeeded getting cached result
+[2024-07-18T07:44:57.834437 10803] Compiler type: gcc
+[2024-07-18T07:44:57.834450 10786] Result: direct_cache_hit
+[2024-07-18T07:44:57.834456 10786] Result: primary_storage_hit
+[2024-07-18T07:44:57.834527 10803] Source file: static_src/CompiledCellType.c
+[2024-07-18T07:44:57.834537 10803] Object file: static_src/CompiledCellType.o
+[2024-07-18T07:44:57.834550 10786] lockfile_acquire: symlink /home/welldoneny/.cache/Nuitka/ccache/2/2/stats.lock: No such file or directory
+[2024-07-18T07:44:57.834555 10803] Trying direct lookup
+[2024-07-18T07:44:57.834559 10792] Acquired lock /home/welldoneny/.cache/Nuitka/ccache/2/8/stats.lock
+[2024-07-18T07:44:57.834627 10786] Acquired lock /home/welldoneny/.cache/Nuitka/ccache/2/2/stats.lock
+[2024-07-18T07:44:57.834692 10789] Reading embedded entry #0 .o (2840 bytes)
+[2024-07-18T07:44:57.834729 10789] Writing to __helpers.o
+[2024-07-18T07:44:57.834786 10792] Releasing lock /home/welldoneny/.cache/Nuitka/ccache/2/8/stats.lock
+[2024-07-18T07:44:57.834791 10786] Releasing lock /home/welldoneny/.cache/Nuitka/ccache/2/2/stats.lock
+[2024-07-18T07:44:57.834794 10789] Succeeded getting cached result
+[2024-07-18T07:44:57.834813 10789] Result: direct_cache_hit
+[2024-07-18T07:44:57.834814 10803] Retrieved ba24igq13258b6goh4dhkich465irv1b8 from primary storage (/home/welldoneny/.cache/Nuitka/ccache/b/a/24igq13258b6goh4dhkich465irv1b8M)
+[2024-07-18T07:44:57.834818 10789] Result: primary_storage_hit
+[2024-07-18T07:44:57.834824 10786] Unlink /home/welldoneny/.cache/Nuitka/ccache/2/2/stats.lock
+[2024-07-18T07:44:57.834825 10792] Unlink /home/welldoneny/.cache/Nuitka/ccache/2/8/stats.lock
+[2024-07-18T07:44:57.834839 10803] Looking for result key in /home/welldoneny/.cache/Nuitka/ccache/b/a/24igq13258b6goh4dhkich465irv1b8M
+[2024-07-18T07:44:57.835066 10789] Acquired lock /home/welldoneny/.cache/Nuitka/ccache/2/5/stats.lock
+[2024-07-18T07:44:57.835190 10800] Got result key from manifest
+[2024-07-18T07:44:57.835223 10789] Releasing lock /home/welldoneny/.cache/Nuitka/ccache/2/5/stats.lock
+[2024-07-18T07:44:57.835251 10789] Unlink /home/welldoneny/.cache/Nuitka/ccache/2/5/stats.lock
+[2024-07-18T07:44:57.835598 10800] Retrieved 9389gd3g2c6ppgkir6ck3qllnp2il88fe from primary storage (/home/welldoneny/.cache/Nuitka/ccache/9/3/89gd3g2c6ppgkir6ck3qllnp2il88feR)
+[2024-07-18T07:44:57.835625 10800] Reading result /home/welldoneny/.cache/Nuitka/ccache/9/3/89gd3g2c6ppgkir6ck3qllnp2il88feR
+[2024-07-18T07:44:57.836132 10800] Reading embedded entry #0 .o (28720 bytes)
+[2024-07-18T07:44:57.836151 10800] Writing to static_src/MainProgram.o
+[2024-07-18T07:44:57.836271 10800] Succeeded getting cached result
+[2024-07-18T07:44:57.836284 10800] Result: direct_cache_hit
+[2024-07-18T07:44:57.836290 10800] Result: primary_storage_hit
+[2024-07-18T07:44:57.836694 10800] Acquired lock /home/welldoneny/.cache/Nuitka/ccache/3/0/stats.lock
+[2024-07-18T07:44:57.837020 10800] Releasing lock /home/welldoneny/.cache/Nuitka/ccache/3/0/stats.lock
+[2024-07-18T07:44:57.837050 10800] Unlink /home/welldoneny/.cache/Nuitka/ccache/3/0/stats.lock
+[2024-07-18T07:44:57.840798 10803] Got result key from manifest
+[2024-07-18T07:44:57.840846 10803] Retrieved 25a3q4f2u8nafki1o92snaprvl9b6h7le from primary storage (/home/welldoneny/.cache/Nuitka/ccache/2/5/a3q4f2u8nafki1o92snaprvl9b6h7leR)
+[2024-07-18T07:44:57.840877 10803] Reading result /home/welldoneny/.cache/Nuitka/ccache/2/5/a3q4f2u8nafki1o92snaprvl9b6h7leR
+[2024-07-18T07:44:57.841567 10803] Reading embedded entry #0 .o (36480 bytes)
+[2024-07-18T07:44:57.841584 10803] Writing to static_src/CompiledCellType.o
+[2024-07-18T07:44:57.841698 10803] Succeeded getting cached result
+[2024-07-18T07:44:57.841715 10803] Result: direct_cache_hit
+[2024-07-18T07:44:57.841723 10803] Result: primary_storage_hit
+[2024-07-18T07:44:57.841929 10803] Acquired lock /home/welldoneny/.cache/Nuitka/ccache/3/3/stats.lock
+[2024-07-18T07:44:57.842103 10803] Releasing lock /home/welldoneny/.cache/Nuitka/ccache/3/3/stats.lock
+[2024-07-18T07:44:57.842131 10803] Unlink /home/welldoneny/.cache/Nuitka/ccache/3/3/stats.lock
+[2024-07-18T07:44:57.898237 10795] Include file __constants.h too new
+[2024-07-18T07:44:57.898271 10795] Disabling direct mode
+[2024-07-18T07:44:57.899727 10795] Include file __helpers.h too new
+[2024-07-18T07:44:57.900355 10795] Got result key from preprocessor
+[2024-07-18T07:44:57.900387 10795] No c91dq39boge7gj7pghhhp95sour51kqqa in primary storage
+[2024-07-18T07:44:57.900398 10795] Running real compiler
+[2024-07-18T07:44:57.900452 10795] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src -c -fdiagnostics-color -o module.__main__.o module.__main__.c
+[2024-07-18T07:44:57.964675 10809] === CCACHE 4.5.1 STARTED =========================================
+[2024-07-18T07:44:57.964675 10809] Config: (default) absolute_paths_in_stderr = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) base_dir = 
+[2024-07-18T07:44:57.964675 10809] Config: (environment) cache_dir = /home/welldoneny/.cache/Nuitka/ccache
+[2024-07-18T07:44:57.964675 10809] Config: (default) compiler = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) compiler_check = mtime
+[2024-07-18T07:44:57.964675 10809] Config: (default) compiler_type = auto
+[2024-07-18T07:44:57.964675 10809] Config: (default) compression = true
+[2024-07-18T07:44:57.964675 10809] Config: (default) compression_level = 0
+[2024-07-18T07:44:57.964675 10809] Config: (default) cpp_extension = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) debug = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) debug_dir = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) depend_mode = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) direct_mode = true
+[2024-07-18T07:44:57.964675 10809] Config: (default) disable = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) extra_files_to_hash = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) file_clone = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) hard_link = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) hash_dir = true
+[2024-07-18T07:44:57.964675 10809] Config: (default) ignore_headers_in_manifest = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) ignore_options = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) inode_cache = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) keep_comments_cpp = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) limit_multiple = 0.8
+[2024-07-18T07:44:57.964675 10809] Config: (environment) log_file = /home/welldoneny/Рабочий стол/work/Python /OCR/main.build/ccache-10766.txt
+[2024-07-18T07:44:57.964675 10809] Config: (default) max_files = 0
+[2024-07-18T07:44:57.964675 10809] Config: (default) max_size = 5.0G
+[2024-07-18T07:44:57.964675 10809] Config: (default) namespace = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) path = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) pch_external_checksum = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) prefix_command = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) prefix_command_cpp = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) read_only = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) read_only_direct = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) recache = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) reshare = false
+[2024-07-18T07:44:57.964675 10809] Config: (default) run_second_cpp = true
+[2024-07-18T07:44:57.964675 10809] Config: (default) secondary_storage = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) sloppiness = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) stats = true
+[2024-07-18T07:44:57.964675 10809] Config: (default) stats_log = 
+[2024-07-18T07:44:57.964675 10809] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2024-07-18T07:44:57.964675 10809] Config: (default) umask = 
+[2024-07-18T07:44:57.964766 10809] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledFunctionType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2024-07-18T07:44:57.964792 10809] Hostname: welldoneny-VivoBook
+[2024-07-18T07:44:57.964802 10809] Working directory: /home/welldoneny/Рабочий стол/work/Python /OCR/main.build
+[2024-07-18T07:44:57.964810 10809] Compiler type: gcc
+[2024-07-18T07:44:57.964926 10809] Source file: static_src/CompiledFunctionType.c
+[2024-07-18T07:44:57.964936 10809] Object file: static_src/CompiledFunctionType.o
+[2024-07-18T07:44:57.964962 10809] Trying direct lookup
+[2024-07-18T07:44:57.965543 10809] Retrieved f1e7l7vcic3kalmm137r1hra14270doqg from primary storage (/home/welldoneny/.cache/Nuitka/ccache/f/1/e7l7vcic3kalmm137r1hra14270doqgM)
+[2024-07-18T07:44:57.965574 10809] Looking for result key in /home/welldoneny/.cache/Nuitka/ccache/f/1/e7l7vcic3kalmm137r1hra14270doqgM
+[2024-07-18T07:44:57.976480 10812] === CCACHE 4.5.1 STARTED =========================================
+[2024-07-18T07:44:57.976480 10812] Config: (default) absolute_paths_in_stderr = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) base_dir = 
+[2024-07-18T07:44:57.976480 10812] Config: (environment) cache_dir = /home/welldoneny/.cache/Nuitka/ccache
+[2024-07-18T07:44:57.976480 10812] Config: (default) compiler = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) compiler_check = mtime
+[2024-07-18T07:44:57.976480 10812] Config: (default) compiler_type = auto
+[2024-07-18T07:44:57.976480 10812] Config: (default) compression = true
+[2024-07-18T07:44:57.976480 10812] Config: (default) compression_level = 0
+[2024-07-18T07:44:57.976480 10812] Config: (default) cpp_extension = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) debug = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) debug_dir = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) depend_mode = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) direct_mode = true
+[2024-07-18T07:44:57.976480 10812] Config: (default) disable = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) extra_files_to_hash = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) file_clone = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) hard_link = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) hash_dir = true
+[2024-07-18T07:44:57.976480 10812] Config: (default) ignore_headers_in_manifest = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) ignore_options = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) inode_cache = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) keep_comments_cpp = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) limit_multiple = 0.8
+[2024-07-18T07:44:57.976480 10812] Config: (environment) log_file = /home/welldoneny/Рабочий стол/work/Python /OCR/main.build/ccache-10766.txt
+[2024-07-18T07:44:57.976480 10812] Config: (default) max_files = 0
+[2024-07-18T07:44:57.976480 10812] Config: (default) max_size = 5.0G
+[2024-07-18T07:44:57.976480 10812] Config: (default) namespace = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) path = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) pch_external_checksum = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) prefix_command = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) prefix_command_cpp = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) read_only = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) read_only_direct = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) recache = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) reshare = false
+[2024-07-18T07:44:57.976480 10812] Config: (default) run_second_cpp = true
+[2024-07-18T07:44:57.976480 10812] Config: (default) secondary_storage = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) sloppiness = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) stats = true
+[2024-07-18T07:44:57.976480 10812] Config: (default) stats_log = 
+[2024-07-18T07:44:57.976480 10812] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2024-07-18T07:44:57.976480 10812] Config: (default) umask = 
+[2024-07-18T07:44:57.976560 10812] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledGeneratorType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/CompiledGeneratorType.c
+[2024-07-18T07:44:57.976581 10812] Hostname: welldoneny-VivoBook
+[2024-07-18T07:44:57.976587 10812] Working directory: /home/welldoneny/Рабочий стол/work/Python /OCR/main.build
+[2024-07-18T07:44:57.976593 10812] Compiler type: gcc
+[2024-07-18T07:44:57.976674 10812] Source file: static_src/CompiledGeneratorType.c
+[2024-07-18T07:44:57.976681 10812] Object file: static_src/CompiledGeneratorType.o
+[2024-07-18T07:44:57.976699 10812] Trying direct lookup
+[2024-07-18T07:44:57.976943 10809] Got result key from manifest
+[2024-07-18T07:44:57.977010 10812] Retrieved d73eg77rosr72v12haef3mfl8u41e5bce from primary storage (/home/welldoneny/.cache/Nuitka/ccache/d/7/3eg77rosr72v12haef3mfl8u41e5bceM)
+[2024-07-18T07:44:57.977031 10812] Looking for result key in /home/welldoneny/.cache/Nuitka/ccache/d/7/3eg77rosr72v12haef3mfl8u41e5bceM
+[2024-07-18T07:44:57.977194 10809] Retrieved 4e20e24qsb78d2cor8aplo5icpqlv8ae4 from primary storage (/home/welldoneny/.cache/Nuitka/ccache/4/e/20e24qsb78d2cor8aplo5icpqlv8ae4R)
+[2024-07-18T07:44:57.977221 10809] Reading result /home/welldoneny/.cache/Nuitka/ccache/4/e/20e24qsb78d2cor8aplo5icpqlv8ae4R
+[2024-07-18T07:44:57.978289 10809] Reading embedded entry #0 .o (2693920 bytes)
+[2024-07-18T07:44:57.978308 10809] Writing to static_src/CompiledFunctionType.o
+[2024-07-18T07:44:57.981415 10815] === CCACHE 4.5.1 STARTED =========================================
+[2024-07-18T07:44:57.981415 10815] Config: (default) absolute_paths_in_stderr = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) base_dir = 
+[2024-07-18T07:44:57.981415 10815] Config: (environment) cache_dir = /home/welldoneny/.cache/Nuitka/ccache
+[2024-07-18T07:44:57.981415 10815] Config: (default) compiler = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) compiler_check = mtime
+[2024-07-18T07:44:57.981415 10815] Config: (default) compiler_type = auto
+[2024-07-18T07:44:57.981415 10815] Config: (default) compression = true
+[2024-07-18T07:44:57.981415 10815] Config: (default) compression_level = 0
+[2024-07-18T07:44:57.981415 10815] Config: (default) cpp_extension = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) debug = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) debug_dir = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) depend_mode = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) direct_mode = true
+[2024-07-18T07:44:57.981415 10815] Config: (default) disable = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) extra_files_to_hash = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) file_clone = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) hard_link = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) hash_dir = true
+[2024-07-18T07:44:57.981415 10815] Config: (default) ignore_headers_in_manifest = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) ignore_options = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) inode_cache = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) keep_comments_cpp = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) limit_multiple = 0.8
+[2024-07-18T07:44:57.981415 10815] Config: (environment) log_file = /home/welldoneny/Рабочий стол/work/Python /OCR/main.build/ccache-10766.txt
+[2024-07-18T07:44:57.981415 10815] Config: (default) max_files = 0
+[2024-07-18T07:44:57.981415 10815] Config: (default) max_size = 5.0G
+[2024-07-18T07:44:57.981415 10815] Config: (default) namespace = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) path = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) pch_external_checksum = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) prefix_command = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) prefix_command_cpp = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) read_only = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) read_only_direct = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) recache = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) reshare = false
+[2024-07-18T07:44:57.981415 10815] Config: (default) run_second_cpp = true
+[2024-07-18T07:44:57.981415 10815] Config: (default) secondary_storage = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) sloppiness = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) stats = true
+[2024-07-18T07:44:57.981415 10815] Config: (default) stats_log = 
+[2024-07-18T07:44:57.981415 10815] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2024-07-18T07:44:57.981415 10815] Config: (default) umask = 
+[2024-07-18T07:44:57.981490 10815] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/InspectPatcher.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/InspectPatcher.c
+[2024-07-18T07:44:57.981512 10815] Hostname: welldoneny-VivoBook
+[2024-07-18T07:44:57.981519 10815] Working directory: /home/welldoneny/Рабочий стол/work/Python /OCR/main.build
+[2024-07-18T07:44:57.981524 10815] Compiler type: gcc
+[2024-07-18T07:44:57.981609 10815] Source file: static_src/InspectPatcher.c
+[2024-07-18T07:44:57.981617 10815] Object file: static_src/InspectPatcher.o
+[2024-07-18T07:44:57.981630 10815] Trying direct lookup
+[2024-07-18T07:44:57.982663 10815] Retrieved 5c6333mkb1gp00h2q7gqupch6rg4b13ai from primary storage (/home/welldoneny/.cache/Nuitka/ccache/5/c/6333mkb1gp00h2q7gqupch6rg4b13aiM)
+[2024-07-18T07:44:57.982713 10815] Looking for result key in /home/welldoneny/.cache/Nuitka/ccache/5/c/6333mkb1gp00h2q7gqupch6rg4b13aiM
+[2024-07-18T07:44:57.982972 10812] Got result key from manifest
+[2024-07-18T07:44:57.983012 10812] Retrieved e3be9ehh40nhbq9taqm6j5dmgphoaoke8 from primary storage (/home/welldoneny/.cache/Nuitka/ccache/e/3/be9ehh40nhbq9taqm6j5dmgphoaoke8R)
+[2024-07-18T07:44:57.983028 10812] Reading result /home/welldoneny/.cache/Nuitka/ccache/e/3/be9ehh40nhbq9taqm6j5dmgphoaoke8R
+[2024-07-18T07:44:57.984143 10812] Reading embedded entry #0 .o (313800 bytes)
+[2024-07-18T07:44:57.984161 10812] Writing to static_src/CompiledGeneratorType.o
+[2024-07-18T07:44:57.985102 10812] Succeeded getting cached result
+[2024-07-18T07:44:57.985117 10812] Result: direct_cache_hit
+[2024-07-18T07:44:57.985123 10812] Result: primary_storage_hit
+[2024-07-18T07:44:57.985175 10812] lockfile_acquire: symlink /home/welldoneny/.cache/Nuitka/ccache/3/c/stats.lock: No such file or directory
+[2024-07-18T07:44:57.985277 10812] Acquired lock /home/welldoneny/.cache/Nuitka/ccache/3/c/stats.lock
+[2024-07-18T07:44:57.985433 10812] Releasing lock /home/welldoneny/.cache/Nuitka/ccache/3/c/stats.lock
+[2024-07-18T07:44:57.985468 10812] Unlink /home/welldoneny/.cache/Nuitka/ccache/3/c/stats.lock
+[2024-07-18T07:44:57.987550 10809] Succeeded getting cached result
+[2024-07-18T07:44:57.987582 10809] Result: direct_cache_hit
+[2024-07-18T07:44:57.987593 10809] Result: primary_storage_hit
+[2024-07-18T07:44:57.987655 10809] lockfile_acquire: symlink /home/welldoneny/.cache/Nuitka/ccache/3/9/stats.lock: No such file or directory
+[2024-07-18T07:44:57.987776 10809] Acquired lock /home/welldoneny/.cache/Nuitka/ccache/3/9/stats.lock
+[2024-07-18T07:44:57.987975 10809] Releasing lock /home/welldoneny/.cache/Nuitka/ccache/3/9/stats.lock
+[2024-07-18T07:44:57.988018 10809] Unlink /home/welldoneny/.cache/Nuitka/ccache/3/9/stats.lock
+[2024-07-18T07:44:57.988480 10818] === CCACHE 4.5.1 STARTED =========================================
+[2024-07-18T07:44:57.988480 10818] Config: (default) absolute_paths_in_stderr = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) base_dir = 
+[2024-07-18T07:44:57.988480 10818] Config: (environment) cache_dir = /home/welldoneny/.cache/Nuitka/ccache
+[2024-07-18T07:44:57.988480 10818] Config: (default) compiler = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) compiler_check = mtime
+[2024-07-18T07:44:57.988480 10818] Config: (default) compiler_type = auto
+[2024-07-18T07:44:57.988480 10818] Config: (default) compression = true
+[2024-07-18T07:44:57.988480 10818] Config: (default) compression_level = 0
+[2024-07-18T07:44:57.988480 10818] Config: (default) cpp_extension = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) debug = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) debug_dir = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) depend_mode = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) direct_mode = true
+[2024-07-18T07:44:57.988480 10818] Config: (default) disable = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) extra_files_to_hash = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) file_clone = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) hard_link = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) hash_dir = true
+[2024-07-18T07:44:57.988480 10818] Config: (default) ignore_headers_in_manifest = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) ignore_options = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) inode_cache = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) keep_comments_cpp = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) limit_multiple = 0.8
+[2024-07-18T07:44:57.988480 10818] Config: (environment) log_file = /home/welldoneny/Рабочий стол/work/Python /OCR/main.build/ccache-10766.txt
+[2024-07-18T07:44:57.988480 10818] Config: (default) max_files = 0
+[2024-07-18T07:44:57.988480 10818] Config: (default) max_size = 5.0G
+[2024-07-18T07:44:57.988480 10818] Config: (default) namespace = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) path = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) pch_external_checksum = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) prefix_command = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) prefix_command_cpp = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) read_only = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) read_only_direct = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) recache = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) reshare = false
+[2024-07-18T07:44:57.988480 10818] Config: (default) run_second_cpp = true
+[2024-07-18T07:44:57.988480 10818] Config: (default) secondary_storage = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) sloppiness = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) stats = true
+[2024-07-18T07:44:57.988480 10818] Config: (default) stats_log = 
+[2024-07-18T07:44:57.988480 10818] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2024-07-18T07:44:57.988480 10818] Config: (default) umask = 
+[2024-07-18T07:44:57.988580 10818] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MetaPathBasedLoader.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/MetaPathBasedLoader.c
+[2024-07-18T07:44:57.988607 10818] Hostname: welldoneny-VivoBook
+[2024-07-18T07:44:57.988616 10818] Working directory: /home/welldoneny/Рабочий стол/work/Python /OCR/main.build
+[2024-07-18T07:44:57.988625 10818] Compiler type: gcc
+[2024-07-18T07:44:57.988720 10815] Got result key from manifest
+[2024-07-18T07:44:57.988736 10818] Source file: static_src/MetaPathBasedLoader.c
+[2024-07-18T07:44:57.988746 10818] Object file: static_src/MetaPathBasedLoader.o
+[2024-07-18T07:44:57.988762 10818] Trying direct lookup
+[2024-07-18T07:44:57.988947 10815] Retrieved ebfdgbgv9j57un20julmq236shqcl7v3s from primary storage (/home/welldoneny/.cache/Nuitka/ccache/e/b/fdgbgv9j57un20julmq236shqcl7v3sR)
+[2024-07-18T07:44:57.988974 10815] Reading result /home/welldoneny/.cache/Nuitka/ccache/e/b/fdgbgv9j57un20julmq236shqcl7v3sR
+[2024-07-18T07:44:57.989089 10818] Retrieved d1c1rl5lqr2dia6lok9jj3h3nuj4818e0 from primary storage (/home/welldoneny/.cache/Nuitka/ccache/d/1/c1rl5lqr2dia6lok9jj3h3nuj4818e0M)
+[2024-07-18T07:44:57.989122 10818] Looking for result key in /home/welldoneny/.cache/Nuitka/ccache/d/1/c1rl5lqr2dia6lok9jj3h3nuj4818e0M
+[2024-07-18T07:44:57.989555 10815] Reading embedded entry #0 .o (45120 bytes)
+[2024-07-18T07:44:57.989572 10815] Writing to static_src/InspectPatcher.o
+[2024-07-18T07:44:57.989702 10815] Succeeded getting cached result
+[2024-07-18T07:44:57.989718 10815] Result: direct_cache_hit
+[2024-07-18T07:44:57.989724 10815] Result: primary_storage_hit
+[2024-07-18T07:44:57.989965 10815] Acquired lock /home/welldoneny/.cache/Nuitka/ccache/3/f/stats.lock
+[2024-07-18T07:44:57.990111 10815] Releasing lock /home/welldoneny/.cache/Nuitka/ccache/3/f/stats.lock
+[2024-07-18T07:44:57.990139 10815] Unlink /home/welldoneny/.cache/Nuitka/ccache/3/f/stats.lock
+[2024-07-18T07:44:57.994717 10818] Got result key from manifest
+[2024-07-18T07:44:57.994967 10818] Retrieved 3648c01iit189t0jfaa2bbevh08mu5jnq from primary storage (/home/welldoneny/.cache/Nuitka/ccache/3/6/48c01iit189t0jfaa2bbevh08mu5jnqR)
+[2024-07-18T07:44:57.994992 10818] Reading result /home/welldoneny/.cache/Nuitka/ccache/3/6/48c01iit189t0jfaa2bbevh08mu5jnqR
+[2024-07-18T07:44:57.995738 10818] Reading embedded entry #0 .o (102656 bytes)
+[2024-07-18T07:44:57.995757 10818] Writing to static_src/MetaPathBasedLoader.o
+[2024-07-18T07:44:57.996064 10818] Succeeded getting cached result
+[2024-07-18T07:44:57.996078 10818] Result: direct_cache_hit
+[2024-07-18T07:44:57.996084 10818] Result: primary_storage_hit
+[2024-07-18T07:44:57.996120 10818] lockfile_acquire: symlink /home/welldoneny/.cache/Nuitka/ccache/4/2/stats.lock: No such file or directory
+[2024-07-18T07:44:57.996209 10818] Acquired lock /home/welldoneny/.cache/Nuitka/ccache/4/2/stats.lock
+[2024-07-18T07:44:57.996344 10818] Releasing lock /home/welldoneny/.cache/Nuitka/ccache/4/2/stats.lock
+[2024-07-18T07:44:57.996372 10818] Unlink /home/welldoneny/.cache/Nuitka/ccache/4/2/stats.lock
+[2024-07-18T07:44:58.156087 10795] Using default compression level 1
+[2024-07-18T07:44:58.156245 10795] Storing result file module.__main__.o
+[2024-07-18T07:44:58.156267 10795] Storing embedded file #0 .o (207904 bytes) from module.__main__.o
+[2024-07-18T07:44:58.157382 10795] Stored c91dq39boge7gj7pghhhp95sour51kqqa in primary storage (/home/welldoneny/.cache/Nuitka/ccache/c/9/1dq39boge7gj7pghhhp95sour51kqqaR)
+[2024-07-18T07:44:58.157538 10795] Result: cache_miss
+[2024-07-18T07:44:58.157550 10795] Result: direct_cache_miss
+[2024-07-18T07:44:58.157556 10795] Result: preprocessed_cache_miss
+[2024-07-18T07:44:58.157561 10795] Result: primary_storage_miss
+[2024-07-18T07:44:58.157612 10795] Acquired lock /home/welldoneny/.cache/Nuitka/ccache/c/stats.lock
+[2024-07-18T07:44:58.157774 10795] Releasing lock /home/welldoneny/.cache/Nuitka/ccache/c/stats.lock
+[2024-07-18T07:44:58.157806 10795] Unlink /home/welldoneny/.cache/Nuitka/ccache/c/stats.lock
+[2024-07-18T07:44:58.157826 10795] Unlink /run/user/1000/ccache-tmp/tmp.stderr.OIVpn4
+[2024-07-18T07:44:58.157837 10795] Unlink /run/user/1000/ccache-tmp/tmp.stdout.8HzPfb
+[2024-07-18T07:44:58.157849 10795] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.GisJu6
+[2024-07-18T07:44:58.157859 10795] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.yDdqtk.i
+[2024-07-18T07:44:58.158122 10795] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.yDdqtk
